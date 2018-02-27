@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('checkout') {
+    stage('in') {
       steps {
-        sh 'git pull origin'
+        echo 'added pipeline'
       }
     }
   }
